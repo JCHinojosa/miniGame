@@ -1,0 +1,12 @@
+body {
+    background-color: #34495e;
+    color: white;                   
+    height: 100vh;      /*100vh es para ocupar el 100% del dispositivo*/
+    padding: 0;            /* con padding 0 y margin 0 se ajusta y no queda*/
+    margin: 0;              /* exceso de margin arriba y abajo, display flex*/
+    display: flex;          /* permite acomoda el contenido y con colum lo hacemos*/
+    justify-content: center;   /* como columnas y centramos. */
+    align-items: center;
+    flex-direction: column;
+
+}
